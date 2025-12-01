@@ -1,5 +1,5 @@
 # imports dataset file
-import data.py
+import data
 
 # asks user their specifications for 
 userSkinType = input("What is your skin type? ")
