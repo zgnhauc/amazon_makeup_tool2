@@ -34,21 +34,74 @@ oilyProducts = {
               'Customers find this facial cleanser effective for oily and dry skin, noting it clears up skin issues and doesn't overdry or irritate it. The product receives positive feedback for its gentle formula for sensitive skin, leaving skin soft and smooth, and customers appreciate its scentless formula and good value for money. Opinions about the foaming action are mixed, with some saying it foams a lot while others report it doesn't produce any foam at all.',
               'Customers find this moisturizer effective for oily skin, noting it doesn't leave a greasy feeling and provides good hydration. The product has a lightweight gel-cream texture that's smooth under makeup and keeps skin shine-free for hours. While some customers report it doesn't irritate sensitive skin, others mention it can cause burning sensations. The matte finish receives mixed feedback, with some appreciating its subtle effect while others say it doesn't provide a matte look at all.',
               'Customers find the mud mask effective at deep cleaning pores and clearing acne, leaving skin soft and smooth with a glowing complexion. Moreover, the mask dries quickly with a powdery soft finish, and customers appreciate its lovely smell. However, opinions about skin compatibility are mixed - while some find it gentle on sensitive skin, others report irritation.',
-              
-
-'
-
-]
+              'Customers find the vitamin C serum effective at brightening skin and reducing wrinkles, with many noting improved radiance and texture. The product receives positive feedback for its hydrating properties and ability to even out skin tone. Customers appreciate its value for money, and many report seeing noticeable results after regular use. Regarding skin irritation, most customers find it non-irritating, although a few report mild redness after use. The size of the product is generally well-received, with customers noting it lasts a long time.', 
+              'Customers find the mud mask effective at deep cleaning pores and clearing acne, leaving skin soft and smooth with a glowing complexion. Moreover, the mask dries quickly with a powdery soft finish, and customers appreciate its lovely smell. However, opinions about skin compatibility are mixed - while some find it gentle on sensitive skin, others report irritation.',
+              'Customers find the mud mask effective at deep cleaning pores and clearing acne, leaving skin soft and smooth with a glowing complexion. Moreover, the mask dries quickly with a powdery soft finish, and customers appreciate its lovely smell. However, opinions about skin compatibility are mixed - while some find it gentle on sensitive skin, others report irritation.', ]
 }
 
+
 normalProducts = {
-  'names': ['name1', 'name2', 'nameN'],
-  'prices': [1.00, 2.00, 45.98],
-  'reviews': [normalName1ReviewList, normalName2ReviewList, normalNameNReviewList] # each list should contain three reviews of a product
+    'names': [
+        'CeraVe Hydrating Facial Cleanser, Daily Moisturizing Cleanser for Normal Skin, 16 fl oz',
+        'La Roche-Posay Toleriane Dermal Cleanser, Gentle Face Wash for Normal Skin',
+        'Neutrogena Ultra Gentle Daily Cleanser, Foaming Formula for Normal Skin, 12 fl oz',
+        'Aveeno Positively Radiant Daily Moisturizer with SPF 30, 4 fl oz',
+        'Vanicream Daily Facial Moisturizer for Normal or Sensitive Skin, 3 fl oz',
+        'The Ordinary Hyaluronic Acid 2% + B5 Lightweight Hydration Serum',
+        'Cetaphil Daily Facial Moisturizer with SPF 15, Normal Skin Formula',
+        'Eucerin Advanced Repair Cream, Everyday Moisturizer for Normal Skin, 16 oz',
+        'COSRX Advanced Snail 96 Mucin Power Essence, Hydrating Serum for Normal Skin',
+        'First Aid Beauty Ultra Repair Cream, Intense Hydration for Normal Skin'
+    ],
+
+    'prices': [
+        14.97, 19.99, 9.89, 13.59, 11.49,
+        8.90, 12.89, 16.50, 18.99, 28.00
+    ],
+
+    'reviews': [
+        'Customers find this cleanser effective for daily use, noting it removes dirt without stripping moisture. Its gentle formula leaves the skin soft and refreshed, and people appreciate the smooth texture. Some users say it feels slightly too light for deep cleansing, but most consider it reliable for normal skin.',
+        'Customers appreciate this gentle wash for maintaining skin balance, reporting no irritation or tightness. The creamy consistency feels soothing, and users note calmer skin after consistent use. Some find the packaging inconvenient, but the product’s performance stays highly rated.',
+        'Customers find this cleanser effective at removing impurities without overdrying. The light foaming action feels refreshing, and many report smoother, more even-looking skin. Opinions on scent vary, but overall performance is praised.',
+        'Customers enjoy this moisturizer for providing lightweight hydration and daily SPF protection. The brightening effect is well-received, particularly for reducing mild dullness. Some users mention it can pill when layered with serums, but most like its smooth feel under makeup.',
+        'Customers find this moisturizer simple and effective, noting it hydrates without greasiness. The non-irritating formula works well for daily use, especially for normal-to-sensitive skin. Some wish it were slightly thicker, but many appreciate the minimal, clean ingredients.',
+        'Customers say this hydration serum absorbs quickly and leaves skin refreshed. Many appreciate the plumping effect and smooth finish. Some note it can feel sticky if too much is applied, but overall it layers well with moisturizers.',
+        'Customers find this moisturizer lightweight and comfortable for daytime wear. It absorbs quickly, provides basic SPF protection, and feels gentle on normal skin. A few wish the SPF were higher, but most are satisfied with its performance.',
+        'Customers find this repair cream deeply hydrating without feeling heavy. It improves rough texture and offers long-lasting moisture. Some mention the scent is slightly medicinal, but effectiveness outweighs this concern.',
+        'Customers find this snail essence hydrating and smoothing, with noticeable improvements in skin elasticity. The lightweight texture absorbs well and provides a healthy glow. A few find it slippery, but most love the results.',
+        'Customers appreciate this moisturizer for its intense hydration and soothing feel. It absorbs quickly without residue and works well for nighttime moisture. Some find it too rich for mornings, but it remains a favorite for comfort and hydration.'
+    ]
 }
 
 dryProducts = {
-  'names': ['name1', 'name2', 'nameN'],
-  'prices': [1.00, 2.00, 45.98],
-  'reviews': [dryName1ReviewList, dryName2ReviewList, dryNameNReviewList] # each list should contain three reviews of a product
+    'names': [
+        'CeraVe Moisturizing Cream with Ceramides and Hyaluronic Acid, 19 oz',
+        'La Roche-Posay Lipikar Balm AP+ Intense Repair Moisturizer, 13.5 oz',
+        'Neutrogena Hydro Boost Gel-Cream for Extra Dry Skin, Hyaluronic Acid, 1.7 oz',
+        'Eucerin Advanced Repair Lotion for Very Dry Skin, 16.9 oz',
+        'Aveeno Calm + Restore Oat Gel Moisturizer for Dry, Sensitive Skin',
+        'The Ordinary 100% Plant-Derived Squalane Lightweight Oil',
+        'Cetaphil Rich Hydrating Cream with Hyaluronic Acid for Dry Skin, 1.7 oz',
+        'First Aid Beauty Ultra Repair Oatmeal Mask, Soothing Treatment for Dry Skin',
+        'Bioderma Atoderm Intensive Balm for Dry and Irritated Skin',
+        'Kiehl’s Ultra Facial Cream, 24-Hour Daily Light Moisturizer'
+    ],
+
+    'prices': [
+        17.89, 18.99, 14.29, 10.99, 11.79,
+        7.90, 12.49, 20.00, 18.49, 32.00
+    ],
+
+    'reviews': [
+        'Customers find this cream extremely hydrating and long-lasting, often restoring moisture overnight. The rich texture absorbs well without greasiness. Some dislike the tub packaging, but most prioritize its strong performance.',
+        'Customers appreciate this balm for calming severely dry skin, especially during winter. It reduces flakiness and irritation quickly. Though thick, the formula spreads easily and leaves the skin comfortable for hours.',
+        'Customers find this gel-cream lightweight yet deeply hydrating, relieving tightness instantly. The bouncy texture is well-loved, though some report a slightly chemical scent. Overall it performs exceptionally well for dry skin.',
+        'Customers appreciate this lotion for providing fast relief to rough, flaky areas. It absorbs quickly and leaves skin soft throughout the day. Some say the texture is runny, but most value the strong moisturization.',
+        'Customers find this oat moisturizer soothing and calming, especially during irritation flare-ups. The gel texture absorbs comfortably and feels cooling. Some wish it were richer for very dry skin, but many use it daily.',
+        'Customers love this squalane oil for deep hydration and a healthy glow. It softens dry patches quickly and layers well with moisturizers. A few find it slippery for daytime use, but it excels as a nighttime booster.',
+        'Customers find this rich cream hydrating and gentle, especially for chronically dry areas. The fragrance-free formula is well-received. Some wish the texture were lighter, but most praise its strong moisture retention.',
+        'Customers appreciate this oat mask for soothing redness and restoring hydration. It leaves the skin soft and comforted after rinsing. A few find the consistency thick, but it works very well for dry, irritated skin.',
+        'Customers find this balm extremely effective for repairing damaged skin barriers. Many report major improvements within a week. The thick texture absorbs surprisingly well and offers long-lasting comfort.',
+        'Customers appreciate this cream for delivering reliable all-day hydration without heaviness. It leaves the skin soft, plump, and smooth. Some find it pricey, but most consider it worth the results.'
+    ]
 }

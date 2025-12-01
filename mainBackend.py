@@ -1,5 +1,6 @@
 # imports dataset file
-import data
+import datamakeup
+
 
 # asks user their specifications for 
 userSkinType = input("What is your skin type? ")
