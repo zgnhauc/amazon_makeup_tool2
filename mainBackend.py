@@ -25,7 +25,11 @@ if userSkinType == "oily":
         if priceList[price] <= userBudget: # if the price of a oily skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
             suitableProductPrices.append(priceList[price])
             suitableProductNames.append(productList[price])
-            suitableProductReviews.append(reviewList[price])
+            # some products don't have reviews. This checks if the product does have a review. If not, then it appends "no product review available" to the suitable products reviews list
+            if price < len(reviewList):
+                suitableProductReviews.append(reviewList[price])
+            else: 
+                suitableProductReviews.append("No product review available")
 
 elif userSkinType == "normal":
     # extracts data from dictionaries in dataset fle and organizes it into lists
@@ -37,7 +41,11 @@ elif userSkinType == "normal":
         if priceList[price] <= userBudget: # if the price of a normal skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
             suitableProductPrices.append(priceList[price])
             suitableProductNames.append(productList[price])
-            suitableProductReviews.append(reviewList[price])
+             # some products don't have reviews. This checks if the product does have a review. If not, then it appends "no product review available" to the suitable products reviews list
+            if price < len(reviewList):
+                suitableProductReviews.append(reviewList[price])
+            else: 
+                suitableProductReviews.append("No product review available")
 
 elif userSkinType == "dry":
     # extracts data from dictionaries in dataset fle and organizes it into lists
@@ -49,7 +57,11 @@ elif userSkinType == "dry":
         if priceList[price] <= userBudget: # if the price of a dry skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
             suitableProductPrices.append(priceList[price])
             suitableProductNames.append(productList[price])
-            suitableProductReviews.append(reviewList[price])
+             # some products don't have reviews. This checks if the product does have a review. If not, then it appends "no product review available" to the suitable products reviews list
+            if price < len(reviewList):
+                suitableProductReviews.append(reviewList[price])
+            else: 
+                suitableProductReviews.append("No product review available")
 
 else: # in case the user enters an invalid skin type
     print("Invalid skin type. Please try again with oily, normal, or dry.")
