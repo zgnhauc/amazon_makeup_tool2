@@ -2,7 +2,7 @@
 oilyProducts = {
   'names': ['The Ordinary The Acne Set, 3-Step Skin Regimen with Glucoside Foaming Cleanser, Salicylic Acid 2% Solution, and Natural Moisturizing Factors + Beta Glucan',
             'The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for Blemish-Prone Skin',
-            'CeraVe Foaming Facial Cleanser, Daily Face Wash for Oily Skin, Hyaluronic Acid + Ceramides + Niacinamide, Fragrance Free & Paraben Free, Non-Drying Oil Control Face Wash, 19 Fluid Ounce'
+            'CeraVe Foaming Facial Cleanser, Daily Face Wash for Oily Skin, Hyaluronic Acid + Ceramides + Niacinamide, Fragrance Free & Paraben Free, Non-Drying Oil Control Face Wash, 19 Fluid Ounce', 
             'CeraVe Oil Control Moisturizing Gel-Cream, Face Moisturizer for Oily Skin, Niacinamide, Hyaluronic Acid & Oil Absorbing Technology To Rebalance Oily Skin, Non-Comedogenic, Fragrance Free & Oil-Free',
             'La Roche-Posay Effaclar Purifying Foaming Gel Cleanser for Oily Skin, 13.5 Fluid Ounce',
             'Neutrogena Hydro Boost Water Gel, Face Moisturizer for Dry Skin with Hyaluronic Acid, Oil-Free, Non-Comedogenic, Fragrance Free, 1.7 oz',
@@ -19,7 +19,7 @@ oilyProducts = {
             'Paula\'s Choice CLEAR Pore Normalizing Cleanser for Acne-Prone Skin',
             'Neutrogena Oil-Free Acne Wash, Facial Cleanser with Salicylic Acid for Acne-Prone Skin, 6.7 fl. oz',
             'COSRX Low pH Good Morning Gel Cleanser for Face, Gentle Daily Face Wash for Oily and Combination Skin, 150ml/5.07 fl. oz',
-            'Murad Clarifying Cleanser for Acne-Prone Skin, 6.75 fl. oz'
+            'Murad Clarifying Cleanser for Acne-Prone Skin, 6.75 fl. oz', 
             'La Roche-Posay Pure 12% Vitamin C Serum For Face With Hyaluronic Acid & Salicylic Acid, Hydrating Face Serum, Boost Radiance & Reduce Wrinkles, 2 Formulas for Normal or Oily Skin Control',
             'Minimalist 2% Salicylic Acid Serum For Acne, Blackhead & Open Pores | Reduces Excess Oil & Bumpy Texture | BHA Liquid Exfoliant for Acne Prone & Oily Skin | For Women & Men | 1 Fl Oz/30ml' ],
  
