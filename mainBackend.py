@@ -1,5 +1,5 @@
 # imports dataset file
-import datamakeup
+from dataset import oilyProducts, normalProducts, dryProducts
 
 
 # asks user their specifications for 
@@ -21,13 +21,11 @@ if userSkinType == "oily":
     priceList = oilyProducts["prices"]
     reviewList = oilyProducts["reviews"]
 
-    index = 0
-    for price in priceList: # iterates through all the prices for oily skin products
-        if price <= userBudget: # if the price of a oily skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
-            suitableProductPrices.append(price)
-            suitableProductNames.append(productList[index])
-            suitableProductReviews.append(reviewList[index])
-        index += 1 # keeps count of how many products in list were already checked
+    for price in range(len(priceList)): # iterates through all the prices for oily skin products
+        if priceList[price] <= userBudget: # if the price of a oily skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
+            suitableProductPrices.append(priceList[price])
+            suitableProductNames.append(productList[price])
+            suitableProductReviews.append(reviewList[price])
 
 elif userSkinType == "normal":
     # extracts data from dictionaries in dataset fle and organizes it into lists
@@ -35,13 +33,11 @@ elif userSkinType == "normal":
     priceList = normalProducts["prices"]
     reviewList = normalProducts["reviews"]
 
-    index = 0
-    for price in priceList: # iterates through all the prices for normal skin products
-        if price <= userBudget: # if the price of a normal skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
-            suitableProductPrices.append(price)
-            suitableProductNames.append(productList[index])
-            suitableProductReviews.append(reviewList[index])
-        index += 1 # keeps count of how many products in list were already checked
+    for price in range(len(priceList)): # iterates through all the prices for normal skin products
+        if priceList[price] <= userBudget: # if the price of a normal skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
+            suitableProductPrices.append(priceList[price])
+            suitableProductNames.append(productList[price])
+            suitableProductReviews.append(reviewList[price])
 
 elif userSkinType == "dry":
     # extracts data from dictionaries in dataset fle and organizes it into lists
@@ -49,18 +45,23 @@ elif userSkinType == "dry":
     priceList = dryProducts["prices"]
     reviewList = dryProducts["reviews"]
 
-    index = 0
-    for price in priceList: # iterates through all the prices for dry skin products
-        if price <= userBudget: # if the price of a dry skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
-            suitableProductPrices.append(price)
-            suitableProductNames.append(productList[index])
-            suitableProductReviews.append(reviewList[index])
-        index += 1 # keeps count of how many products in list were already checked
+    for price in range(len(priceList)): # iterates through all the prices for dry skin products
+        if priceList[price] <= userBudget: # if the price of a dry skin product is less than or equal to the user's budget, all it's product details are added to three different lists (prices, product name, product reviews)
+            suitableProductPrices.append(priceList[price])
+            suitableProductNames.append(productList[price])
+            suitableProductReviews.append(reviewList[price])
 
 else: # in case the user enters an invalid skin type
     print("Invalid skin type. Please try again with oily, normal, or dry.")
 
 
 # all products have been filtered and suitable product specifications have been stored in their respective lists. now will be put to output
-
-
+if len(suitableProductNames) == 0:
+    print("Sorry, no suitable products for your request")
+else:
+    for i in range(len(suitableProductNames)):
+        print("--------------------------------------------------")
+        print(f"Product {i+1}")
+        print(f"Name: {suitableProductNames[i]}")
+        print(f"Price: {suitableProductPrices[i]}")
+        print(f"Review: {suitableProductReviews[i]}")
